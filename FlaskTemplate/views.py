@@ -12,7 +12,7 @@ def home():
     """Renders the home page."""
     return render_template(
         'index.html',
-        title='Home Page',
+        title='Página de Inicio',
         year=datetime.now().year,
     )
 
@@ -23,7 +23,7 @@ def contact():
         'contact.html',
         title='Contact',
         year=datetime.now().year,
-        message='Your contact page.'
+        message='Página de contacto.'
     )
 
 @app.route('/about')
